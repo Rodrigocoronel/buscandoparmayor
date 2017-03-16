@@ -1,0 +1,43 @@
+hay elementos a analizar? :
+	
+	si:
+
+		el numero es par y el numero siguiente es impar 
+		y la suma del anterior mas el siguiente es igual al numero
+		 y el numero dividido entre dos es igual al numero segundo siguiente?
+
+		 	si:
+				realizar division
+				guardar resultado de division
+			fin si
+	fin si
+
+
+	resultado resultadomayor es menor al nuevo resultado?:
+
+		si:
+			guardar nuevo resultado en resultadomayor
+			guardar direccion del numero en direccionparmayor
+			guardar numero siguiente en numeroimpar
+			guardar numero anterior en numeroanterior
+			guardar numero segundo siguiente en numerosigsig
+
+	 	fin si
+
+fin de pregunta
+
+resultadomayor es igual a 0?:
+
+		si:
+			imprimir "no se ha encontrado un numero con esas especificaciones"
+
+		fin si
+
+		no:
+		 	imprimir "numero mayor par"
+		 	imprimir "numero de vecesi divisible entre 2"
+		 	imprimir "numero anterior"
+		 	imprimir "numero siguiente"
+		 	imprimir "numero segundo siguiente"
+
+fin de pregunta
